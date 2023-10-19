@@ -1,0 +1,32 @@
+.contenedor_perfil{
+    background-color: var(--Blue);
+    display: flex;
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 15px;
+}
+.image_container{
+    border-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+p{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: var(--font-size);
+    color: var(--Pale-Blue);
+    margin: 0;
+}
+p2{
+    font-family: var(--font-family);
+    font-weight:300;
+    font-size: 40px;
+    color: white;
+    padding: 3px;
+}
